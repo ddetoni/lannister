@@ -1,0 +1,25 @@
+{
+  "name": "lannister",
+  "version": "0.0.1",
+  "description": "A Lannister always pays his debts. A tool for split bills between friends and enemies.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "split",
+    "bill",
+    "bills"
+  ],
+  "author": "Douglas Detoni",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.0.2",
+    "jest": "^21.1.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.0"
+  }
+}
